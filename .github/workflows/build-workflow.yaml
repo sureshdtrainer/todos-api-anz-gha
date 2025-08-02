@@ -1,6 +1,8 @@
 name: Sample Java Todos API Docker Build workflow 
 
-on: push
+on: 
+  push:
+  workflow_dispatch:
 
 jobs:
   maven-build:
